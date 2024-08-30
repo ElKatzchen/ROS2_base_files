@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target pubsub[0m
+[0.096s] [ 66%] Built target sub
+[0.096s] [ 66%] Built target pub
+[0.103s] [ 83%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[8.342s] [100%] [32m[1mLinking CXX executable pubsub[0m
+[8.693s] [100%] Built target pubsub
+[8.706s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[8.756s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[8.763s] -- Install configuration: ""
+[8.764s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub
+[8.764s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub
+[8.771s] -- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub" to ""
+[8.771s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/sub
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/package_run_dependencies/Example_C_ws
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/parent_prefix_path/Example_C_ws
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.sh
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.dsv
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.sh
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.dsv
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.bash
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.sh
+[8.772s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.zsh
+[8.773s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.dsv
+[8.773s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv
+[8.773s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/packages/Example_C_ws
+[8.773s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig.cmake
+[8.773s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig-version.cmake
+[8.773s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.xml
+[8.775s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws

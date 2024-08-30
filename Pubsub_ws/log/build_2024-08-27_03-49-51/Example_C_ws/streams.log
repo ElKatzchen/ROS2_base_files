@@ -1,0 +1,31 @@
+[0.018s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target pubsub[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.090s] [ 50%] Built target pub
+[0.095s] [ 66%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[2.817s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.818s]                  from [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:3[m[K:
+[2.818s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:[m[K In member function ‘[01m[Kvoid Alpha_PubSub::topic_callback(const UInt8MultiArray&) const[m[K’:
+[2.818s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:26:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst class std::vector<unsigned char, std::allocator<unsigned char> >[m[K’} has no member named ‘[01m[Kc_str[m[K’
+[2.818s]    26 |       RCLCPP_INFO(this->get_logger(), "Heard: '%s'", msg.data.[01;31m[Kc_str[m[K());
+[2.818s]       |                                                               [01;31m[K^~~~~[m[K
+[2.818s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:28:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.818s]    28 |       auto message = std_msgs::msg::[01;31m[KString[m[K();
+[2.818s]       |                                     [01;31m[K^~~~~~[m[K
+[5.290s] gmake[2]: *** [CMakeFiles/pubsub.dir/build.make:76: CMakeFiles/pubsub.dir/src/pubsub.cpp.o] Error 1
+[5.290s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pubsub.dir/all] Error 2
+[5.290s] gmake[1]: *** Waiting for unfinished jobs....
+[8.374s] [ 83%] [32m[1mLinking CXX executable sub[0m
+[8.745s] [ 83%] Built target sub
+[8.746s] gmake: *** [Makefile:146: all] Error 2
+[8.750s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16

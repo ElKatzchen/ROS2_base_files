@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws:/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.059s] [ 66%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.059s] [ 83%] Built target pub
+[0.059s] [ 83%] Built target pubsub
+[5.957s] [100%] [32m[1mLinking CXX executable sub[0m
+[6.212s] [100%] Built target sub
+[6.221s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws:/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[6.255s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws:/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[6.261s] -- Install configuration: ""
+[6.261s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub
+[6.261s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub
+[6.261s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/sub
+[6.266s] -- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/sub" to ""
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/package_run_dependencies/Example_C_ws
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/parent_prefix_path/Example_C_ws
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.sh
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.dsv
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.sh
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.dsv
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.bash
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.sh
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.zsh
+[6.266s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.dsv
+[6.266s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv
+[6.267s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/packages/Example_C_ws
+[6.267s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig.cmake
+[6.267s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig-version.cmake
+[6.267s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.xml
+[6.268s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws:/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws

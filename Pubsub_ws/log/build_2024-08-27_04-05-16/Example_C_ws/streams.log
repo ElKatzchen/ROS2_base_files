@@ -1,0 +1,33 @@
+[0.020s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target pubsub[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[0.096s] [ 50%] Built target sub
+[0.104s] [ 66%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[4.946s] [ 83%] [32m[1mLinking CXX executable pub[0m
+[5.138s] [ 83%] Built target pub
+[8.658s] [100%] [32m[1mLinking CXX executable pubsub[0m
+[8.928s] [100%] Built target pubsub
+[8.939s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[8.979s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[8.984s] -- Install configuration: ""
+[8.984s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub
+[8.986s] -- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub" to ""
+[8.986s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub
+[8.992s] -- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub" to ""
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/sub
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/package_run_dependencies/Example_C_ws
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/parent_prefix_path/Example_C_ws
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.sh
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.dsv
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.sh
+[8.992s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.dsv
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.bash
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.sh
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.zsh
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.dsv
+[8.993s] -- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/packages/Example_C_ws
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig.cmake
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig-version.cmake
+[8.993s] -- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.xml
+[8.995s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws

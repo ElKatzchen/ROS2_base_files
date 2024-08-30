@@ -1,0 +1,176 @@
+[0.240s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.240s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x768bd0f2ab60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x768bd10e04f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x768bd10e04f0>>, mixin_verb=('build',))
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.616s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/katzchen/Documents/Robotics/Examples_ws'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(Example_C_ws) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'Example_C_ws' with type 'ros.ament_cmake' and name 'Example_C_ws'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(Example_py_ws) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package 'Example_py_ws' with type 'ros.ament_python' and name 'Example_py_ws'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.704s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_C_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'Example_C_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws', 'merge_install': False, 'path': '/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws', 'symlink_install': False, 'test_result_base': None}
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'Example_py_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'Example_py_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws', 'merge_install': False, 'path': '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws', 'symlink_install': False, 'test_result_base': None}
+[0.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws' with build type 'ament_cmake'
+[0.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws'
+[0.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.836s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws' with build type 'ament_python'
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('Example_py_ws', 'ament_prefix_path')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/ament_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/ament_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/ament_prefix_path.sh'
+[0.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[1.485s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws'
+[1.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws': PYTHONPATH=/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Example_py_ws build --build-base /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build install --record /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log --single-version-externally-managed install_data
+[2.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws' returned '0': PYTHONPATH=/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Example_py_ws build --build-base /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build install --record /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log --single-version-externally-managed install_data
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws' for CMake module files
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws' for CMake config files
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/bin'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/pkgconfig/Example_py_ws.pc'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages'
+[2.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('Example_py_ws', 'pythonpath')
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/pythonpath.ps1'
+[2.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/pythonpath.dsv'
+[2.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/hook/pythonpath.sh'
+[2.934s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/bin'
+[2.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Example_py_ws)
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/package.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/package.dsv'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/package.sh'
+[2.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/package.bash'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/Example_py_ws/package.zsh'
+[2.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/share/colcon-core/packages/Example_py_ws)
+[12.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[12.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[12.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Example_C_ws)
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws' for CMake module files
+[12.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[12.419s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws' for CMake config files
+[12.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('Example_C_ws', 'cmake_prefix_path')
+[12.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.ps1'
+[12.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.dsv'
+[12.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.sh'
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib'
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/bin'
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/pkgconfig/Example_C_ws.pc'
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/python3.10/site-packages'
+[12.420s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/bin'
+[12.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.ps1'
+[12.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv'
+[12.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.sh'
+[12.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.bash'
+[12.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.zsh'
+[12.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/colcon-core/packages/Example_C_ws)
+[12.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Example_C_ws)
+[12.451s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws' for CMake module files
+[12.451s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws' for CMake config files
+[12.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('Example_C_ws', 'cmake_prefix_path')
+[12.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.ps1'
+[12.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.dsv'
+[12.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/hook/cmake_prefix_path.sh'
+[12.452s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib'
+[12.452s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/bin'
+[12.452s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/pkgconfig/Example_C_ws.pc'
+[12.453s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/python3.10/site-packages'
+[12.453s] Level 1:colcon.colcon_core.environment:checking '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/bin'
+[12.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.ps1'
+[12.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv'
+[12.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.sh'
+[12.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.bash'
+[12.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.zsh'
+[12.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/colcon-core/packages/Example_C_ws)
+[12.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.455s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.459s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.470s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katzchen/Documents/Robotics/Examples_ws/install/local_setup.ps1'
+[12.471s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katzchen/Documents/Robotics/Examples_ws/install/_local_setup_util_ps1.py'
+[12.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katzchen/Documents/Robotics/Examples_ws/install/setup.ps1'
+[12.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katzchen/Documents/Robotics/Examples_ws/install/local_setup.sh'
+[12.474s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/katzchen/Documents/Robotics/Examples_ws/install/_local_setup_util_sh.py'
+[12.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katzchen/Documents/Robotics/Examples_ws/install/setup.sh'
+[12.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katzchen/Documents/Robotics/Examples_ws/install/local_setup.bash'
+[12.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katzchen/Documents/Robotics/Examples_ws/install/setup.bash'
+[12.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/katzchen/Documents/Robotics/Examples_ws/install/local_setup.zsh'
+[12.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/katzchen/Documents/Robotics/Examples_ws/install/setup.zsh'

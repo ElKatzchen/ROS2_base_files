@@ -1,0 +1,10 @@
+[01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pub.cpp:[m[K In member function ‘[01m[Kvoid Alpha_Publisher::timer_callback()[m[K’:
+[01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pub.cpp:27:7:[m[K [01;31m[Kerror: [m[K‘[01m[KArray_1[m[K’ was not declared in this scope
+   27 |       [01;31m[KArray_1[m[K = {1, 2, 3, 4, 5}
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pub.cpp:29:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   29 |       [01;31m[Kmessage[m[K.data = Array_1;
+      |       [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pub.dir/build.make:76: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

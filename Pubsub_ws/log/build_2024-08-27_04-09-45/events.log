@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (Example_C_ws) JobQueued: {'identifier': 'Example_C_ws', 'dependencies': OrderedDict()}
+[0.000307] (Example_py_ws) JobQueued: {'identifier': 'Example_py_ws', 'dependencies': OrderedDict()}
+[0.001600] (Example_C_ws) JobStarted: {'identifier': 'Example_C_ws'}
+[0.014874] (Example_py_ws) JobStarted: {'identifier': 'Example_py_ws'}
+[0.026342] (Example_C_ws) JobProgress: {'identifier': 'Example_C_ws', 'progress': 'cmake'}
+[0.028145] (Example_C_ws) JobProgress: {'identifier': 'Example_C_ws', 'progress': 'build'}
+[0.029778] (Example_C_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws', '--', '-j16', '-l16'], 'cwd': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'katzchen'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katzchen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1692'), ('SYSTEMD_EXEC_PID', '2038'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2583'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'katzchen'), ('JOURNAL_STREAM', '8:3830'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katzchen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/katzchen/.local/bin:/opt/ros/humble/bin:/home/katzchen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katzchen-Blade-14-RZ09-0370:@/tmp/.ICE-unix/2015,unix/katzchen-Blade-14-RZ09-0370:/tmp/.ICE-unix/2015'), ('INVOCATION_ID', 'b0c54926c59d4c2baaddd0ce26890126'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99889941cf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099355] (-) TimerEvent: {}
+[0.138162] (Example_C_ws) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub\x1b[0m\n'}
+[0.171889] (Example_C_ws) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o\x1b[0m\n'}
+[0.172425] (Example_C_ws) StdoutLine: {'line': b'[ 50%] Built target sub\n'}
+[0.184771] (Example_C_ws) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.199515] (-) TimerEvent: {}
+[0.299991] (-) TimerEvent: {}
+[0.400512] (-) TimerEvent: {}
+[0.501025] (-) TimerEvent: {}
+[0.601549] (-) TimerEvent: {}
+[0.702052] (-) TimerEvent: {}
+[0.802531] (-) TimerEvent: {}
+[0.903084] (-) TimerEvent: {}
+[1.003629] (-) TimerEvent: {}
+[1.104138] (-) TimerEvent: {}
+[1.204641] (-) TimerEvent: {}
+[1.305277] (-) TimerEvent: {}
+[1.405777] (-) TimerEvent: {}
+[1.508032] (Example_py_ws) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/Example_py_ws', 'build', '--build-base', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build', 'install', '--record', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'katzchen', 'LC_TIME': 'es_BO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/katzchen', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.92.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'es_BO.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1692', 'SYSTEMD_EXEC_PID': '2038', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2583', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'katzchen', 'JOURNAL_STREAM': '8:3830', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'katzchen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/katzchen/.local/bin:/opt/ros/humble/bin:/home/katzchen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/katzchen-Blade-14-RZ09-0370:@/tmp/.ICE-unix/2015,unix/katzchen-Blade-14-RZ09-0370:/tmp/.ICE-unix/2015', 'INVOCATION_ID': 'b0c54926c59d4c2baaddd0ce26890126', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_BO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'es_BO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-99889941cf.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'es_BO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_BO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_BO.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_BO.UTF-8', 'LC_PAPER': 'es_BO.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.511406] (-) TimerEvent: {}
+[1.611813] (-) TimerEvent: {}
+[1.712229] (-) TimerEvent: {}
+[1.812676] (-) TimerEvent: {}
+[1.913095] (-) TimerEvent: {}
+[2.013565] (-) TimerEvent: {}
+[2.060508] (Example_py_ws) StdoutLine: {'line': b'running egg_info\n'}
+[2.062042] (Example_py_ws) StdoutLine: {'line': b'writing ../build/Example_py_ws/Example_py_ws.egg-info/PKG-INFO\n'}
+[2.062751] (Example_py_ws) StdoutLine: {'line': b'writing dependency_links to ../build/Example_py_ws/Example_py_ws.egg-info/dependency_links.txt\n'}
+[2.063202] (Example_py_ws) StdoutLine: {'line': b'writing entry points to ../build/Example_py_ws/Example_py_ws.egg-info/entry_points.txt\n'}
+[2.063701] (Example_py_ws) StdoutLine: {'line': b'writing requirements to ../build/Example_py_ws/Example_py_ws.egg-info/requires.txt\n'}
+[2.064121] (Example_py_ws) StdoutLine: {'line': b'writing top-level names to ../build/Example_py_ws/Example_py_ws.egg-info/top_level.txt\n'}
+[2.067826] (Example_py_ws) StdoutLine: {'line': b"reading manifest file '../build/Example_py_ws/Example_py_ws.egg-info/SOURCES.txt'\n"}
+[2.068354] (Example_py_ws) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.069741] (Example_py_ws) StdoutLine: {'line': b"writing manifest file '../build/Example_py_ws/Example_py_ws.egg-info/SOURCES.txt'\n"}
+[2.070134] (Example_py_ws) StdoutLine: {'line': b'running build\n'}
+[2.070305] (Example_py_ws) StdoutLine: {'line': b'running build_py\n'}
+[2.070967] (Example_py_ws) StdoutLine: {'line': b'running install\n'}
+[2.071685] (Example_py_ws) StdoutLine: {'line': b'running install_lib\n'}
+[2.074194] (Example_py_ws) StdoutLine: {'line': b'running install_data\n'}
+[2.074562] (Example_py_ws) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.079598] (Example_py_ws) StdoutLine: {'line': b"removing '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.080738] (Example_py_ws) StdoutLine: {'line': b'Copying ../build/Example_py_ws/Example_py_ws.egg-info to /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws-0.0.0-py3.10.egg-info\n'}
+[2.083104] (Example_py_ws) StdoutLine: {'line': b'running install_scripts\n'}
+[2.113704] (-) TimerEvent: {}
+[2.126446] (Example_py_ws) StdoutLine: {'line': b"writing list of installed files to '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log'\n"}
+[2.177581] (Example_py_ws) CommandEnded: {'returncode': 0}
+[2.198561] (Example_py_ws) JobEnded: {'identifier': 'Example_py_ws', 'rc': 0}
+[2.213856] (-) TimerEvent: {}
+[2.314311] (-) TimerEvent: {}
+[2.414839] (-) TimerEvent: {}
+[2.515270] (-) TimerEvent: {}
+[2.615723] (-) TimerEvent: {}
+[2.716153] (-) TimerEvent: {}
+[2.816602] (-) TimerEvent: {}
+[2.917029] (-) TimerEvent: {}
+[3.017456] (-) TimerEvent: {}
+[3.117939] (-) TimerEvent: {}
+[3.218391] (-) TimerEvent: {}
+[3.318926] (-) TimerEvent: {}
+[3.419356] (-) TimerEvent: {}
+[3.519802] (-) TimerEvent: {}
+[3.620231] (-) TimerEvent: {}
+[3.720681] (-) TimerEvent: {}
+[3.821134] (-) TimerEvent: {}
+[3.921584] (-) TimerEvent: {}
+[4.022022] (-) TimerEvent: {}
+[4.122463] (-) TimerEvent: {}
+[4.222928] (-) TimerEvent: {}
+[4.323362] (-) TimerEvent: {}
+[4.423834] (-) TimerEvent: {}
+[4.524264] (-) TimerEvent: {}
+[4.624706] (-) TimerEvent: {}
+[4.725131] (-) TimerEvent: {}
+[4.825572] (-) TimerEvent: {}
+[4.926014] (-) TimerEvent: {}
+[5.026448] (-) TimerEvent: {}
+[5.126906] (-) TimerEvent: {}
+[5.227343] (-) TimerEvent: {}
+[5.327797] (-) TimerEvent: {}
+[5.428231] (-) TimerEvent: {}
+[5.528876] (-) TimerEvent: {}
+[5.629311] (-) TimerEvent: {}
+[5.729762] (-) TimerEvent: {}
+[5.830204] (-) TimerEvent: {}
+[5.930683] (-) TimerEvent: {}
+[6.031118] (-) TimerEvent: {}
+[6.131571] (-) TimerEvent: {}
+[6.232015] (-) TimerEvent: {}
+[6.332451] (-) TimerEvent: {}
+[6.432914] (-) TimerEvent: {}
+[6.533356] (-) TimerEvent: {}
+[6.633843] (-) TimerEvent: {}
+[6.734298] (-) TimerEvent: {}
+[6.834766] (-) TimerEvent: {}
+[6.935210] (-) TimerEvent: {}
+[7.035666] (-) TimerEvent: {}
+[7.136097] (-) TimerEvent: {}
+[7.236525] (-) TimerEvent: {}
+[7.336924] (-) TimerEvent: {}
+[7.437321] (-) TimerEvent: {}
+[7.537705] (-) TimerEvent: {}
+[7.638073] (-) TimerEvent: {}
+[7.738426] (-) TimerEvent: {}
+[7.838783] (-) TimerEvent: {}
+[7.939110] (-) TimerEvent: {}
+[8.039424] (-) TimerEvent: {}
+[8.139744] (-) TimerEvent: {}
+[8.240047] (-) TimerEvent: {}
+[8.340349] (-) TimerEvent: {}
+[8.440992] (-) TimerEvent: {}
+[8.470783] (Example_C_ws) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[8.541113] (-) TimerEvent: {}
+[8.629482] (Example_C_ws) StdoutLine: {'line': b'[ 83%] Built target pub\n'}
+[8.641191] (-) TimerEvent: {}
+[8.741417] (-) TimerEvent: {}
+[8.841720] (-) TimerEvent: {}
+[8.941995] (-) TimerEvent: {}
+[9.042263] (-) TimerEvent: {}
+[9.142530] (-) TimerEvent: {}
+[9.242789] (-) TimerEvent: {}
+[9.343054] (-) TimerEvent: {}
+[9.443317] (-) TimerEvent: {}
+[9.543575] (-) TimerEvent: {}
+[9.643833] (-) TimerEvent: {}
+[9.744092] (-) TimerEvent: {}
+[9.844350] (-) TimerEvent: {}
+[9.944619] (-) TimerEvent: {}
+[10.044878] (-) TimerEvent: {}
+[10.145136] (-) TimerEvent: {}
+[10.245396] (-) TimerEvent: {}
+[10.345665] (-) TimerEvent: {}
+[10.445927] (-) TimerEvent: {}
+[10.546183] (-) TimerEvent: {}
+[10.646438] (-) TimerEvent: {}
+[10.746713] (-) TimerEvent: {}
+[10.846975] (-) TimerEvent: {}
+[10.947229] (-) TimerEvent: {}
+[11.047509] (-) TimerEvent: {}
+[11.147789] (-) TimerEvent: {}
+[11.247986] (Example_C_ws) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pubsub\x1b[0m\n'}
+[11.248160] (-) TimerEvent: {}
+[11.348371] (-) TimerEvent: {}
+[11.448678] (-) TimerEvent: {}
+[11.507870] (Example_C_ws) StdoutLine: {'line': b'[100%] Built target pubsub\n'}
+[11.517717] (Example_C_ws) CommandEnded: {'returncode': 0}
+[11.547657] (Example_C_ws) JobProgress: {'identifier': 'Example_C_ws', 'progress': 'install'}
+[11.548792] (-) TimerEvent: {}
+[11.556256] (Example_C_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws'], 'cwd': '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'katzchen'), ('LC_TIME', 'es_BO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/katzchen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1692'), ('SYSTEMD_EXEC_PID', '2038'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2583'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'katzchen'), ('JOURNAL_STREAM', '8:3830'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'katzchen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/katzchen/.local/bin:/opt/ros/humble/bin:/home/katzchen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/katzchen-Blade-14-RZ09-0370:@/tmp/.ICE-unix/2015,unix/katzchen-Blade-14-RZ09-0370:/tmp/.ICE-unix/2015'), ('INVOCATION_ID', 'b0c54926c59d4c2baaddd0ce26890126'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-99889941cf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.562558] (Example_C_ws) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.562723] (Example_C_ws) StdoutLine: {'line': b'-- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub\n'}
+[11.564686] (Example_C_ws) StdoutLine: {'line': b'-- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pub" to ""\n'}
+[11.564834] (Example_C_ws) StdoutLine: {'line': b'-- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub\n'}
+[11.569749] (Example_C_ws) StdoutLine: {'line': b'-- Set runtime path of "/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/pubsub" to ""\n'}
+[11.569893] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/lib/Example_C_ws/sub\n'}
+[11.570062] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/package_run_dependencies/Example_C_ws\n'}
+[11.570154] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/parent_prefix_path/Example_C_ws\n'}
+[11.570249] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.sh\n'}
+[11.570309] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/ament_prefix_path.dsv\n'}
+[11.570374] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.sh\n'}
+[11.570440] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/environment/path.dsv\n'}
+[11.570537] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.bash\n'}
+[11.570626] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.sh\n'}
+[11.570679] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.zsh\n'}
+[11.570780] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/local_setup.dsv\n'}
+[11.570853] (Example_C_ws) StdoutLine: {'line': b'-- Installing: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.dsv\n'}
+[11.570900] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/ament_index/resource_index/packages/Example_C_ws\n'}
+[11.570946] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig.cmake\n'}
+[11.571002] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/cmake/Example_C_wsConfig-version.cmake\n'}
+[11.571047] (Example_C_ws) StdoutLine: {'line': b'-- Up-to-date: /home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws/share/Example_C_ws/package.xml\n'}
+[11.572690] (Example_C_ws) CommandEnded: {'returncode': 0}
+[11.609954] (Example_C_ws) JobEnded: {'identifier': 'Example_C_ws', 'rc': 0}
+[11.610559] (-) EventReactorShutdown: {}

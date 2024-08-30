@@ -1,0 +1,12 @@
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/uninstall.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/Example_C_ws_uninstall.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/pub.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/pubsub.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/sub.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/test.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/edit_cache.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/rebuild_cache.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/list_install_components.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/install.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/install/local.dir
+/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws/CMakeFiles/install/strip.dir

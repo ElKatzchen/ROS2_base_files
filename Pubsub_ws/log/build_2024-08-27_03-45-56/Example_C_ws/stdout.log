@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target pub[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[ 66%] Built target sub
+[ 83%] Built target pub

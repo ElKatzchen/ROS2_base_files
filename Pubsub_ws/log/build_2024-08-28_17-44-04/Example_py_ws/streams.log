@@ -1,0 +1,27 @@
+[0.490s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws': PYTHONPATH=/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Example_py_ws build --build-base /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build install --record /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log --single-version-externally-managed install_data
+[0.668s] running egg_info
+[0.668s] writing ../build/Example_py_ws/Example_py_ws.egg-info/PKG-INFO
+[0.668s] writing dependency_links to ../build/Example_py_ws/Example_py_ws.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../build/Example_py_ws/Example_py_ws.egg-info/entry_points.txt
+[0.668s] writing requirements to ../build/Example_py_ws/Example_py_ws.egg-info/requires.txt
+[0.668s] writing top-level names to ../build/Example_py_ws/Example_py_ws.egg-info/top_level.txt
+[0.670s] reading manifest file '../build/Example_py_ws/Example_py_ws.egg-info/SOURCES.txt'
+[0.670s] adding license file 'LICENSE'
+[0.670s] writing manifest file '../build/Example_py_ws/Example_py_ws.egg-info/SOURCES.txt'
+[0.670s] running build
+[0.671s] running build_py
+[0.671s] copying Example_py_ws/sub.py -> /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build/lib/Example_py_ws
+[0.671s] running install
+[0.671s] running install_lib
+[0.672s] copying /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build/lib/Example_py_ws/sub.py -> /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws
+[0.672s] byte-compiling /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws/sub.py to sub.cpython-310.pyc
+[0.673s] running install_data
+[0.673s] running install_egg_info
+[0.674s] removing '/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[0.675s] Copying ../build/Example_py_ws/Example_py_ws.egg-info to /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages/Example_py_ws-0.0.0-py3.10.egg-info
+[0.675s] running install_scripts
+[0.691s] Installing pub script to /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/Example_py_ws
+[0.691s] Installing pubsub script to /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/Example_py_ws
+[0.691s] Installing sub script to /home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/Example_py_ws
+[0.691s] writing list of installed files to '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log'
+[0.724s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/Example_py_ws' returned '0': PYTHONPATH=/home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Examples_ws/install/Example_py_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Example_py_ws build --build-base /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/build install --record /home/katzchen/Documents/Robotics/Examples_ws/build/Example_py_ws/install.log --single-version-externally-managed install_data

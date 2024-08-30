@@ -1,0 +1,15 @@
+[0.036s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target pub[0m
+[0.170s] [ 50%] Built target pubsub
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.184s] [ 83%] Built target pub
+[5.286s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/sub.cpp:[m[K In member function ‘[01m[Kvoid Alpha_Subscriber::topic_callback(const UInt8MultiArray&) const[m[K’:
+[5.286s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/sub.cpp:47:29:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.286s]    47 |         if (message.data[i] < 0)
+[5.287s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/sub.cpp:50:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[5.287s]    50 |         [01;31m[K}[m[K
+[5.287s]       |         [01;31m[K^[m[K
+[8.893s] gmake[2]: *** [CMakeFiles/sub.dir/build.make:76: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[8.893s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sub.dir/all] Error 2
+[8.893s] gmake: *** [Makefile:146: all] Error 2
+[8.896s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16

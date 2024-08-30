@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[0.087s] [ 16%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[0.090s] [ 83%] Built target pubsub
+[0.090s] [ 83%] Built target sub
+[0.358s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/uint8multiarray.hpp: No such file or directory
+[0.358s]     7 | #include [01;31m[K"std_msgs/msg/uint8multiarray.hpp"[m[K
+[0.358s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.358s] compilation terminated.
+[0.363s] gmake[2]: *** [CMakeFiles/pub.dir/build.make:76: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[0.364s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/pub.dir/all] Error 2
+[0.364s] gmake: *** [Makefile:146: all] Error 2
+[0.368s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16

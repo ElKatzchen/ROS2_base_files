@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws -DCMAKE_INSTALL_PREFIX=/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.481s] -- Detecting CXX compile features - done
+[0.488s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.655s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.761s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.816s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.822s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.833s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.927s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.076s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Looking for pthread.h
+[1.247s] -- Looking for pthread.h - found
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.342s] -- Found Threads: TRUE  
+[1.463s] WARNING: Package name "Example_C_ws" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.478s] -- Configuring done
+[1.493s] -- Generating done
+[1.495s] -- Build files have been written to: /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws
+[1.507s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws -DCMAKE_INSTALL_PREFIX=/home/katzchen/Documents/Robotics/Examples_ws/install/Example_C_ws
+[1.511s] Invoking command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16
+[1.577s] [ 16%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.578s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[1.578s] [ 50%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[1.913s] [01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/UInt8MultiArray.hpp: No such file or directory
+[1.913s]     7 | #include [01;31m[K"std_msgs/msg/UInt8MultiArray.hpp"[m[K
+[1.913s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.913s] compilation terminated.
+[1.917s] gmake[2]: *** [CMakeFiles/pub.dir/build.make:76: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[1.917s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/pub.dir/all] Error 2
+[1.917s] gmake[1]: *** Waiting for unfinished jobs....
+[9.581s] [ 66%] [32m[1mLinking CXX executable sub[0m
+[9.700s] [ 83%] [32m[1mLinking CXX executable pubsub[0m
+[9.907s] [ 83%] Built target sub
+[10.002s] [ 83%] Built target pubsub
+[10.003s] gmake: *** [Makefile:146: all] Error 2
+[10.005s] Invoked command in '/home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/Examples_ws/build/Example_C_ws -- -j16 -l16

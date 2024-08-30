@@ -1,0 +1,7 @@
+[01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:[m[K In constructor ‘[01m[KAlpha_PubSub::Alpha_PubSub()[m[K’:
+[01m[K/home/katzchen/Documents/Robotics/Examples_ws/Example_C_ws/src/pubsub.cpp:21:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPubSub[m[K’ has not been declared
+   21 |       "Topic_1", 10, std::bind(&[01;31m[KMinimalPubSub[m[K::topic_callback, this, _1));
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pubsub.dir/build.make:76: CMakeFiles/pubsub.dir/src/pubsub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pubsub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

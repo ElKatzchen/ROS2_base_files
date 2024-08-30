@@ -1,0 +1,5 @@
+[console_scripts]
+pub = Example_py_ws.pub:main
+pubsub = Example_py_ws.pubsub:main
+sub = Example_py_ws.sub:main
+
