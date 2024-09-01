@@ -1,0 +1,4 @@
+[console_scripts]
+cli = Service_ws.cli:main
+ser = Service_ws.ser:main
+

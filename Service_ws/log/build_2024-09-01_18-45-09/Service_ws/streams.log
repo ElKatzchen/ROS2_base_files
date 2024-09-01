@@ -1,0 +1,30 @@
+[0.480s] Invoking command in '/home/katzchen/Documents/Robotics/Service_ws/Service_ws': PYTHONPATH=/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Service_ws build --build-base /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build install --record /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.663s] writing ../build/Service_ws/Service_ws.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../build/Service_ws/Service_ws.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../build/Service_ws/Service_ws.egg-info/entry_points.txt
+[0.663s] writing requirements to ../build/Service_ws/Service_ws.egg-info/requires.txt
+[0.664s] writing top-level names to ../build/Service_ws/Service_ws.egg-info/top_level.txt
+[0.665s] reading manifest file '../build/Service_ws/Service_ws.egg-info/SOURCES.txt'
+[0.665s] adding license file 'LICENSE'
+[0.665s] writing manifest file '../build/Service_ws/Service_ws.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] copying Service_ws/ser.py -> /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws
+[0.666s] copying Service_ws/cli.py -> /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws
+[0.666s] running install
+[0.666s] running install_lib
+[0.667s] copying /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws/ser.py -> /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws
+[0.667s] copying /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws/cli.py -> /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws
+[0.667s] byte-compiling /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws/ser.py to ser.cpython-310.pyc
+[0.668s] byte-compiling /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws/cli.py to cli.cpython-310.pyc
+[0.668s] running install_data
+[0.668s] copying package.xml -> /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/share/Service_ws
+[0.668s] running install_egg_info
+[0.670s] removing '/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[0.670s] Copying ../build/Service_ws/Service_ws.egg-info to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.686s] Installing cli script to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/Service_ws
+[0.686s] Installing ser script to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/Service_ws
+[0.686s] writing list of installed files to '/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log'
+[0.712s] Invoked command in '/home/katzchen/Documents/Robotics/Service_ws/Service_ws' returned '0': PYTHONPATH=/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Service_ws build --build-base /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build install --record /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log --single-version-externally-managed install_data

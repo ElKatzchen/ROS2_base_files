@@ -1,0 +1,26 @@
+[0.738s] Invoking command in '/home/katzchen/Documents/Robotics/Service_ws/Service_ws': PYTHONPATH=/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Service_ws build --build-base /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build install --record /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log --single-version-externally-managed install_data
+[1.010s] running egg_info
+[1.011s] writing ../build/Service_ws/Service_ws.egg-info/PKG-INFO
+[1.011s] writing dependency_links to ../build/Service_ws/Service_ws.egg-info/dependency_links.txt
+[1.011s] writing entry points to ../build/Service_ws/Service_ws.egg-info/entry_points.txt
+[1.012s] writing requirements to ../build/Service_ws/Service_ws.egg-info/requires.txt
+[1.012s] writing top-level names to ../build/Service_ws/Service_ws.egg-info/top_level.txt
+[1.014s] reading manifest file '../build/Service_ws/Service_ws.egg-info/SOURCES.txt'
+[1.019s] adding license file 'LICENSE'
+[1.020s] writing manifest file '../build/Service_ws/Service_ws.egg-info/SOURCES.txt'
+[1.020s] running build
+[1.020s] running build_py
+[1.021s] copying Service_ws/ser.py -> /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws
+[1.021s] running install
+[1.021s] running install_lib
+[1.022s] copying /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build/lib/Service_ws/ser.py -> /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws
+[1.023s] byte-compiling /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws/ser.py to ser.cpython-310.pyc
+[1.024s] running install_data
+[1.024s] running install_egg_info
+[1.027s] removing '/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[1.027s] Copying ../build/Service_ws/Service_ws.egg-info to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages/Service_ws-0.0.0-py3.10.egg-info
+[1.028s] running install_scripts
+[1.050s] Installing cli script to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/Service_ws
+[1.050s] Installing ser script to /home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/Service_ws
+[1.050s] writing list of installed files to '/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log'
+[1.076s] Invoked command in '/home/katzchen/Documents/Robotics/Service_ws/Service_ws' returned '0': PYTHONPATH=/home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/Service_ws/install/Service_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/Service_ws build --build-base /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/build install --record /home/katzchen/Documents/Robotics/Service_ws/build/Service_ws/install.log --single-version-externally-managed install_data
