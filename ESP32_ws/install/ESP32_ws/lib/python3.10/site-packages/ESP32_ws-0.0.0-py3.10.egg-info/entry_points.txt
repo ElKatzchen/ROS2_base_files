@@ -1,0 +1,3 @@
+[console_scripts]
+cli = ESP32_ws.cli:main
+

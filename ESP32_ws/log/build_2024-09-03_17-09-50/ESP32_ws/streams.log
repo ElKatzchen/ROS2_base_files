@@ -1,0 +1,25 @@
+[0.780s] Invoking command in '/home/katzchen/Documents/Robotics/ESP32_ws': PYTHONPATH=/home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/ESP32_ws build --build-base /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/build install --record /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/install.log --single-version-externally-managed install_data
+[1.068s] running egg_info
+[1.069s] writing build/ESP32_ws/ESP32_ws.egg-info/PKG-INFO
+[1.070s] writing dependency_links to build/ESP32_ws/ESP32_ws.egg-info/dependency_links.txt
+[1.070s] writing entry points to build/ESP32_ws/ESP32_ws.egg-info/entry_points.txt
+[1.070s] writing requirements to build/ESP32_ws/ESP32_ws.egg-info/requires.txt
+[1.070s] writing top-level names to build/ESP32_ws/ESP32_ws.egg-info/top_level.txt
+[1.072s] reading manifest file 'build/ESP32_ws/ESP32_ws.egg-info/SOURCES.txt'
+[1.078s] adding license file 'LICENSE'
+[1.079s] writing manifest file 'build/ESP32_ws/ESP32_ws.egg-info/SOURCES.txt'
+[1.079s] running build
+[1.079s] running build_py
+[1.079s] copying ESP32_ws/cli.py -> /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/build/lib/ESP32_ws
+[1.080s] running install
+[1.080s] running install_lib
+[1.081s] copying /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/build/lib/ESP32_ws/cli.py -> /home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages/ESP32_ws
+[1.082s] byte-compiling /home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages/ESP32_ws/cli.py to cli.cpython-310.pyc
+[1.083s] running install_data
+[1.083s] running install_egg_info
+[1.086s] removing '/home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages/ESP32_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[1.087s] Copying build/ESP32_ws/ESP32_ws.egg-info to /home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages/ESP32_ws-0.0.0-py3.10.egg-info
+[1.088s] running install_scripts
+[1.110s] Installing cli script to /home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/ESP32_ws
+[1.110s] writing list of installed files to '/home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/install.log'
+[1.151s] Invoked command in '/home/katzchen/Documents/Robotics/ESP32_ws' returned '0': PYTHONPATH=/home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katzchen/Documents/Robotics/ESP32_ws/install/ESP32_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/ESP32_ws build --build-base /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/build install --record /home/katzchen/Documents/Robotics/ESP32_ws/build/ESP32_ws/install.log --single-version-externally-managed install_data

@@ -1,0 +1,49 @@
+import network
+import socket
+import machine
+
+#----------WIFI CONFIGURATION----------
+#---Change the Wi-Fi name and password---
+ssid = 'Padoru_Padoru'
+password = 'ALOYALTREK505'
+
+#----------WIFI CONECTION----------
+station = network.WLAN(network.STA_IF)
+station.active(True)
+station.disconnect()
+station.connect(ssid, password)
+
+while not station.isconnected():
+    pass
+
+print('CONECTION SUCCESFUL, IP:', station.ifconfig()[0])
+
+#----------LED DECLARATION----------
+led = machine.Pin(2, machine.Pin.OUT)
+
+#----------SOCKET CONFIGURATION----------
+addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
+s = socket.socket()
+s.bind(addr)
+s.listen(1)
+
+print('Waiting conections...')
+
+while True:
+    cl, addr = s.accept()
+    print('Client from:', addr)
+    request = cl.recv(1024)
+    request_str = request.decode('utf-8')
+    print('Request content:', request_str)
+    
+    #----------SERVER RESPONCE----------
+    if 'GET /1' in request_str:
+        led.on()
+        cl.send('HTTP/1.0 200 OK\r\n\r\nLED ON')
+    elif 'GET /0' in request_str:
+        led.off()
+        cl.send('HTTP/1.0 200 OK\r\n\r\nLED OFF')
+    else:
+        cl.send('HTTP/1.0 400 Bad Request\r\n\r\nNOT VALID COMMAND')
+    
+    cl.close()
