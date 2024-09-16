@@ -1,0 +1,4 @@
+Invoking command in '/home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg -- -j16 -l16
+Invoked command in '/home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg -- -j16 -l16
+Invoking command in '/home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg
+Invoked command in '/home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/katzchen/Documents/Robotics/RVizRobot_ws/build/RViz_pkg

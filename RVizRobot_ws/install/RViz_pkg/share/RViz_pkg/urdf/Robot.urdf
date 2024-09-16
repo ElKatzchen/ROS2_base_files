@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<robot name="tanky">
+    <link name="Base_Body">
+        <visual>
+            <geometry>
+                <box size="3 5 1.5"/>
+            </geometry>
+            <origin xyz="0 0 0.75"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <link name="Base_Body_2">
+        <visual>
+            <geometry>
+                <box size="5 2.5 1.25"/>
+            </geometry>
+            <origin xyz="0 0 0.625" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="1 0 0 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Base_2" type="fixed">
+        <parent link="Base_Body"/>
+        <child link="Base_Body_2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="Base_Body_3">
+        <visual>
+            <geometry>
+                <box size="2.5 5.5 1"/>
+            </geometry>
+            <origin xyz="0 0 0.75" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Base_3" type="fixed">
+        <parent link="Base_Body"/>
+        <child link="Base_Body_3"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="Turret_Base">
+        <visual>
+            <geometry>
+                <cylinder length="0.5" radius="1.4"/>
+            </geometry>
+            <origin xyz="0 0 0.25" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Base_to_Turret" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="Turret_Base"/>
+        <origin xyz="0 0 1.5" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Turret_Base_2">
+        <visual>
+            <geometry>
+                <cylinder length="0.25" radius="1.2"/>
+            </geometry>
+            <origin xyz="0 0 0.125" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Base_to_Turret_2" type="fixed">
+        <parent link="Turret_Base"/>
+        <child link="Turret_Base_2"/>
+        <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    </joint>
+
+    <link name="Canon_base">
+        <visual>
+            <geometry>
+                <box size="1 3 0.75"/>
+            </geometry>
+            <origin xyz="0 1.5 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Canon_Base_Move" type="revolute">
+        <parent link="Turret_Base"/>
+        <child link="Canon_base"/>
+        <origin xyz="0 0 0.5" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="0" upper="0.785" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Canon_Extend_L">
+        <visual>
+            <geometry>
+                <box size="0.5 1.5 0.5"/>
+            </geometry>
+            <origin xyz="0.5 2.25 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Canon_L" type="prismatic">
+        <parent link="Canon_base"/>
+        <child link="Canon_Extend_L"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="1 1 0"/>
+        <limit lower="0" upper="0.3" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Canon_Extend_R">
+        <visual>
+            <geometry>
+                <box size="0.5 1.5 0.5"/>
+            </geometry>
+            <origin xyz="-0.5 2.25 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Canon_R" type="prismatic">
+        <parent link="Canon_base"/>
+        <child link="Canon_Extend_R"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <axis xyz="-1 1 0"/>
+        <limit lower="0" upper="0.3" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Chain_FL">
+        <visual>
+            <geometry>
+                <box size="1 2 1"/>
+            </geometry>
+            <origin xyz="0 1 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Chain_FL_M" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="Chain_FL"/>
+        <origin xyz="1.5 0.5 0.5" rpy="0 0 0"/>
+        <axis xyz="0 0 -1"/>
+        <limit lower="0" upper="0.5" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Chain_FR">
+        <visual>
+            <geometry>
+                <box size="1 2 1"/>
+            </geometry>
+            <origin xyz="0 1 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Chain_FR_M" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="Chain_FR"/>
+        <origin xyz="-1.5 0.5 0.5" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="0.5" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Chain_BL">
+        <visual>
+            <geometry>
+                <box size="1 2 1"/>
+            </geometry>
+            <origin xyz="0 -1 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Chain_BL_M" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="Chain_BL"/>
+        <origin xyz="1.5 -0.5 0.5" rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="0.5" effort="10.0" velocity="0.5"/>
+    </joint>
+
+    <link name="Chain_BR">
+        <visual>
+            <geometry>
+                <box size="1 2 1"/>
+            </geometry>
+            <origin xyz="0 -1 0" rpy="0 0 0"/>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Chain_BR_M" type="revolute">
+        <parent link="Base_Body"/>
+        <child link="Chain_BR"/>
+        <origin xyz="-1.5 -0.5 0.5" rpy="0 0 0"/>
+        <axis xyz="0 0 -1"/>
+        <limit lower="0" upper="0.5" effort="10.0" velocity="0.5"/>
+    </joint>
+</robot>
